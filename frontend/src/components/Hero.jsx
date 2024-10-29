@@ -12,7 +12,7 @@ const Hero = () => {
           Welcome to <br /> Our CPI <br /> Timeline
         </h1>
         <p className="text-lg md:text-xl mb-6">
-          A Platform for Unlimited Sports Contents
+         Stay connected, stay informed—your journey at CPI, captured!
         </p>
 
         <div className="flex items-center w-full max-w-md bg-white rounded-full overflow-hidden shadow-lg mb-6">
