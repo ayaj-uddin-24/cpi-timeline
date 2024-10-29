@@ -12,7 +12,7 @@ const Hero = () => {
           Welcome to <br /> Our CPI <br /> Timeline
         </h1>
         <p className="text-lg md:text-xl mb-6">
-         Stay connected, stay informed—your journey at CPI, captured!
+         Stay connected, stay informed <br>your journey at CPI, captured! </br>
         </p>
 
         <div className="flex items-center w-full max-w-md bg-white rounded-full overflow-hidden shadow-lg mb-6">
