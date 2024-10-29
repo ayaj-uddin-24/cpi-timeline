@@ -7,9 +7,9 @@ const Match = () => {
         <h1 className="text-4xl font-semibold">Upcoming Event</h1>
 
         <div className="mt-10 flex flex-col sm:flex-row items-center gap-5">
-          <div className="p-10 font-bold backdrop-blur-lg border text-center">Planting Trees <br /> 1 Nov, 2024</div>
+          <div className="p-10 font-bold backdrop-blur-lg border text-center">Better CPI Initiative <br /> 1 Nov, 2024</div>
           <p className="font-semibold">&</p>
-          <div className="p-10 font-bold backdrop-blur-lg border text-center">Cricket Tounerment <br /> 3 Nov, 2024</div>
+          <div className="p-10 font-bold backdrop-blur-lg border text-center">CPI's Talents <br /> 3 Nov, 2024</div>
         </div>
       </div>
     </div>
