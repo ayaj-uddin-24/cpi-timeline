@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
 
         {/* About Company Section */}
-        <div>
+        /* <div>
           <h2 className="text-lg font-bold mb-4">About Company</h2>
           <ul>
             <li className="mb-2">
@@ -88,7 +88,7 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */
 
         {/* Support Section */}
         <div>
