@@ -14,7 +14,7 @@ const GalleryItem = ({ img, title }) => {
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
       <div className="absolute bottom-0 p-4 text-white">
-        <h3 className="font-bold text-lg">{title}</h3>
+        <h3 className="font-bold text-lg">{title.toUpperCase()}</h3>
       </div>
     </Link>
   );

@@ -75,25 +75,25 @@ const images = [
   {
     id: 1,
     image: "/img1.jpg",
-    title: "Football",
+    title: "football",
     images: ["/img1.jpg", "/img2.jpg", "/img3.jpg", "/img4.jpg"],
   },
   {
     id: 2,
     image: "/img2.jpg",
-    title: "Cricket",
+    title: "cricket",
     images: ["/img1.jpg", "/img2.jpg", "/img3.jpg", "/img4.jpg"],
   },
   {
     id: 3,
     image: "/img3.jpg",
-    title: "Tennis",
+    title: "tennis",
     images: ["/img1.jpg", "/img2.jpg", "/img3.jpg", "/img4.jpg"],
   },
   {
     id: 4,
     image: "/img4.jpg",
-    title: "Others",
+    title: "others",
     images: ["/img1.jpg", "/img2.jpg", "/img3.jpg", "/img4.jpg"],
   },
 ];

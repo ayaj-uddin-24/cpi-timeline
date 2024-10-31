@@ -10,12 +10,12 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-10">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-5 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-5 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
         {/* Contact Section */}
         <div>
           <h2 className="text-xl font-bold mb-4">CPI Timeline</h2>
           <ul>
-            <li className="mb-2">
+            <li className="mb-2 text-sm">
               <a
                 href="mailto:techcluder@gmail.com"
                 className="flex items-center"
@@ -24,7 +24,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <p className="flex items-center">
+              <p className="flex items-center text-sm">
                 <span className="mr-2">📍</span> CPI, 2 no gate, Chattogram
               </p>
             </li>
@@ -36,59 +36,27 @@ const Footer = () => {
           <h2 className="text-lg font-bold mb-4">Links</h2>
           <ul>
             <li className="mb-2">
-              <a href="#" className="hover:text-gray-400">
+              <a href="#" className="hover:text-gray-400 text-sm">
                 Home
               </a>
             </li>
             <li className="mb-2">
-              <a href="#" className="hover:text-gray-400">
+              <a href="#" className="hover:text-gray-400 text-sm">
                 News
               </a>
             </li>
             <li className="mb-2">
-              <a href="#" className="hover:text-gray-400">
+              <a href="#" className="hover:text-gray-400 text-sm">
                 Gallery
               </a>
             </li>
             <li className="mb-2">
-              <a href="#" className="hover:text-gray-400">
+              <a href="#" className="hover:text-gray-400 text-sm">
                 Subscribe
               </a>
             </li>
           </ul>
         </div>
-
-        {/* About Company Section */}
-        {/* <div>
-          <h2 className="text-lg font-bold mb-4">About Company</h2>
-          <ul>
-            <li className="mb-2">
-              <a href="#" className="hover:text-gray-400">
-                Privacy Policy
-              </a>
-            </li>
-            <li className="mb-2">
-              <a href="#" className="hover:text-gray-400">
-                Terms & Conditions
-              </a>
-            </li>
-            <li className="mb-2">
-              <a href="#" className="hover:text-gray-400">
-                Refund Policy
-              </a>
-            </li>
-            <li className="mb-2">
-              <a href="#" className="hover:text-gray-400">
-                Help Center
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-gray-400">
-                FAQ
-              </a>
-            </li>
-          </ul>
-        </div> */}
 
         {/* Support Section */}
         <div>
@@ -112,12 +80,12 @@ const Footer = () => {
           </div>
           <ul>
             <li className="mb-2">
-              <a href="#" className="hover:text-gray-400">
+              <a href="#" className="hover:text-gray-400 text-sm">
                 Support
               </a>
             </li>
             <li className="mb-2">
-              <a href="#" className="hover:text-gray-400">
+              <a href="#" className="hover:text-gray-400 text-sm">
                 Archive News
               </a>
             </li>
