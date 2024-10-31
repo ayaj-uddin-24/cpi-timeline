@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const PostItem = ({ id, img, title, content }) => {
+const Item = ({ id, img, title, content }) => {
   return (
     <Link
       to={`/post/${id}`}
@@ -21,4 +21,4 @@ const PostItem = ({ id, img, title, content }) => {
   );
 };
 
-export default PostItem;
+export default Item;

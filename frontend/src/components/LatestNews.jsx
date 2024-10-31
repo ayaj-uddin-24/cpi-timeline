@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
-import Item from "./PostItem";
+import Item from "./Item";
 import { SportContext } from "../contexts/SportContext";
 import { Link } from "react-router-dom";
 

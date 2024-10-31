@@ -8,17 +8,15 @@ import Subscribe from "./pages/Subscribe";
 import Auth from "./pages/Auth";
 import Post from "./pages/Post";
 import Footer from "./components/Footer";
-import Images from "./pages/Images";
 
 const App = () => {
   return (
-    <div className="">
+    <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/news" element={<News />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/gallery/:name" element={<Images />} />
         <Route path="/subscribe" element={<Subscribe />} />
         <Route path="/auth" element={<Auth />} />
         <Route path="/post/:postId" element={<Post />} />

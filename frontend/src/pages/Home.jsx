@@ -1,15 +1,15 @@
 import React from "react";
 import Hero from "../components/Hero";
-import Match from "../components/Match";
 import LatestNews from "../components/LatestNews";
 import Photos from "../components/Photos";
+import Event from "../components/Event";
 
 const Home = () => {
   return (
     <div>
       <Hero />
       <LatestNews />
-      <Match />
+      <Event />
       <Photos />
     </div>
   );

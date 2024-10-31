@@ -4,7 +4,6 @@ const Hero = () => {
   return (
     <div
       className="bg-cover bg-center h-[90vh] flex flex-col items-start justify-center px-5 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]"
-      // style={{ backgroundImage: "url('/banner.jpg')" }}
       id="hero"
     >
       <div className=" text-white">
@@ -12,7 +11,7 @@ const Hero = () => {
           Welcome to <br /> Our CPI <br /> Timeline
         </h1>
         <p className="text-lg md:text-xl mb-6">
-         Stay connected, stay informed your journey at CPI, captured!
+          Stay connected, stay informed your journey at CPI, captured!
         </p>
 
         <div className="flex items-center w-full max-w-md bg-white rounded-full overflow-hidden shadow-lg mb-6">
